@@ -1,0 +1,51 @@
+Address Map
+           0 -     1000 ARWX  debug-controller@0
+        3000 -     4000 ARWX  error-device@3000
+       10000 -    20000  R X  rom@10000
+     2000000 -  2010000 ARW   clint@2000000
+     c000000 - 10000000 ARW   interrupt-controller@c000000
+    60000000 - 80000000  RWX  mmio-port-axi4@60000000
+    80000000 - 80000120  RWXC memory@80000000 _start
+    80000120 - 80001000  RWXC memory@80000000 trap_entry
+    80001000 - 80001040  RWXC memory@80000000 tohost
+    80001040 - 80001048  RWXC memory@80000000 fromhost
+    80001048 - 80001366  RWXC memory@80000000 vprintfmt
+    80001366 - 800013dc  RWXC memory@80000000 putchar
+    800013dc - 8000142a  RWXC memory@80000000 setStats
+    8000142a - 8000143c  RWXC memory@80000000 tohost_exit
+    8000143c - 8000144c  RWXC memory@80000000 handle_trap
+    8000144c - 80001454  RWXC memory@80000000 exit
+    80001454 - 80001462  RWXC memory@80000000 abort
+    80001462 - 800014bc  RWXC memory@80000000 printstr
+    800014bc - 800014c2  RWXC memory@80000000 thread_entry
+    800014c2 - 80001504  RWXC memory@80000000 printhex
+    80001504 - 80001536  RWXC memory@80000000 printf
+    80001536 - 80001576  RWXC memory@80000000 sprintf
+    80001576 - 800015b8  RWXC memory@80000000 memcpy
+    800015b8 - 800015fe  RWXC memory@80000000 memset
+    800015fe - 800016ae  RWXC memory@80000000 _init
+    800016ae - 800016c6  RWXC memory@80000000 strlen
+    800016c6 - 800016e8  RWXC memory@80000000 strnlen
+    800016e8 - 80001706  RWXC memory@80000000 strcmp
+    80001706 - 80001718  RWXC memory@80000000 strcpy
+    80001718 - 8000177c  RWXC memory@80000000 atol
+    8000177c - 800019f0  RWXC memory@80000000 main
+    800019f0 - 80001a90  RWXC memory@80000000 expected
+    80001a90 - 80001aa0  RWXC memory@80000000 counters
+    80001aa0 -       10  RWXC memory@80000000 counter_names
+          10 - 90000000  RWXC memory@80000000
+
+Execution Trace Windows for Core 0
+Timer Range           | Lines     | Address Range
+----------------------|-----------|---------------------
+        1 -         5 |         5 | memory@80000000
+        6 -        93 |        88 | memory@80000000 _start
+       94 -       113 |        20 | memory@80000000 _init
+      114 -       120 |         7 | memory@80000000 memcpy
+      121 -       125 |         5 | memory@80000000 _init
+      126 -       385 |       260 | memory@80000000 memset
+      386 -       388 |         3 | memory@80000000 _init
+      389 -       390 |         2 | memory@80000000 thread_entry
+      391 -       393 |         3 | memory@80000000 _init
+      394 -       449 |        56 | memory@80000000 main
+

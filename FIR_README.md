@@ -77,15 +77,15 @@ Key techniques used:
 
 ## Repository Structure
 
-/hls                            Data transfer tools
+/hls                            (Data transfer tools)
 
-/rocket_sim                     Rokect Chip simulation setup
+/rocket_sim                     (Rokect Chip simulation setup)
 
-/sc                             Hardware and software source files  
+/sc                             (Hardware and software source files ) 
 
-/vsim                           Simulation scripts and configurations  
+/vsim                           (Simulation scripts and configurations)
 
-ECE 720 Project2 Report.pdf     Project report and documentation  
+ECE 720 Project2 Report.pdf     (Project report and documentation)
 
 ---
 

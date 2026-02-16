@@ -24,7 +24,7 @@ The accelerator consists of the following components:
 
 The Rocket CPU configures the accelerator, transfers data, and retrieves computation results.
 
-![FIR Filter Diagram](FIR Filter Diagram.png)
+![FIR Filter Diagram](FIR_Filter_Diagram.png)
 
 ---
 

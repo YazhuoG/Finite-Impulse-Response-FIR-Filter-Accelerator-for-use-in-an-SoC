@@ -79,9 +79,11 @@ Key techniques used:
 
 Example structure (adjust based on your repo):
 
-/src        Hardware and software source files  
-/sim        Simulation scripts and configurations  
-/report     Project report and documentation  
+/hls                            Data transfer tools
+/rocket_sim                     Rokect Chip simulation setup
+/sc                             Hardware and software source files  
+/vsim                           Simulation scripts and configurations  
+ECE 720 Project2 Report.pdf     Project report and documentation  
 
 ---
 

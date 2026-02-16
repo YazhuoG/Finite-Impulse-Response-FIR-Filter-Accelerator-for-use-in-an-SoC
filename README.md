@@ -25,6 +25,11 @@ The accelerator consists of the following components:
 The Rocket CPU configures the accelerator, transfers data, and retrieves computation results.
 
 ![Architecture](FIR_Filter_Diagram.png)
+Figure: FIR accelerator dataflow.
+
+Input samples are transferred from main memory via DMA and buffered in a sliding window.
+The pipelined FIR core processes data continuously and writes results to a FIFO buffer.
+The Rocket CPU configures the accelerator and retrieves results through memory-mapped registers.
 
 ---
 
